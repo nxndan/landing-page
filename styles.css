@@ -53,11 +53,15 @@ h1 {
 h2 {
   text-align: center;
   padding: 20px;
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 900;
 }
 
 .images-section {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 .image {
@@ -65,8 +69,26 @@ h2 {
   flex-direction: column;
   align-items: center;
   gap: 20px;
+  margin: 20px;
 }
 
-.image p {
+.section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #E5E7EB;
+  padding: 80px;
+}
+
+.quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
   margin: 20px;
+}
+
+.person {
+  margin-left: auto;
+  font-size: 24px;
 }
