@@ -41,9 +41,15 @@ h1 {
   font-size: 48px;
   color: #F9FAF8;
   font-weight: 900;
+  margin-bottom: 30px;
 }
 
 .left p {
   font-size: 18px;
   color: #E5E7EB;
+  margin-bottom: 30px;
+}
+
+.left button {
+  
 }
