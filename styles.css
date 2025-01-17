@@ -92,3 +92,44 @@ h2 {
   margin-left: auto;
   font-size: 24px;
 }
+
+.section-4 {
+  padding: 80px;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3882F6;
+  padding: 50px;
+}
+
+.signup-container button {
+  padding: 5px 15px;
+  color: #F9FAF8;
+  background-color: #3882F6;
+  border: 2px solid white;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.signup-text {
+  color: #F9FAF8;
+}
+
+.footer {
+  text-align: center;
+  padding: 40px;
+  background-color: #1F2937;
+  color: #E5E7EB;
+  font-size: 18px;
+}
+
+.header-button {
+  text-align: center;
+  border: 2px solid white;
+  padding: 8px 20px;
+  border-radius: 12px;
+  background-color: #3882F6;
+  color:#F9FAF8;
+}
