@@ -8,16 +8,20 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-ul {
-  list-style-type: none;
-  display: flex;
-  gap: 24px;
-  padding: 40px;
+.header {
+  padding-right: 40px;
 }
 
-ul a {
+.header ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.header li a{
   text-decoration: none;
-  color: #E5E7EB;
+  color:#E5E7EB;
   font-size: 18px;
 }
 
@@ -25,6 +29,7 @@ ul a {
   margin-right: auto;
   color: #F9FAF8;
   font-size: 24px;
+  padding-left: 40px;
 }
 
 .container {
@@ -37,6 +42,7 @@ ul a {
 
 .section-1 {
   background-color: #1F2937;
+  padding: 20px 125px;
 }
 
 h1 {
