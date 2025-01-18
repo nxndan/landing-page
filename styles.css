@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -31,9 +32,10 @@ ul a {
   padding: 40px;
   gap: 20px;
   justify-content: center;
+  align-items: center;
 }
 
-.header {
+.section-1 {
   background-color: #1F2937;
 }
 
